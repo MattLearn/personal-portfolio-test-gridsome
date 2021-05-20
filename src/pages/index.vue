@@ -53,11 +53,11 @@
             <h1 id="hero" class="heroText index-heading">
               <span>
                 I
-                <span v-html="raw80fw"></span>
+                <span v-html="rawbs6h"></span>
               </span>
               <span>
                 make
-                <span v-html="rawhwme"></span>
+                <span v-html="raw69q4"></span>
               </span>
               <span>stuff</span>
             </h1>
@@ -67,7 +67,7 @@
             <br />
             <span>
               that grab your audience&apos;s full attention
-              <span v-html="rawye2y"></span>
+              <span v-html="rawj9pi"></span>
             </span>
             <br />
             <span>to lead them to your products</span>
@@ -134,12 +134,12 @@
             <span class="cardText index-text40">
               <span>
                 Video or graphical content provided
-                <span v-html="rawpgwy"></span>
+                <span v-html="rawhyqf"></span>
               </span>
               <br />
               <span>
                 by me for the sake of the project.
-                <span v-html="rawh8hb"></span>
+                <span v-html="raw3wuw"></span>
               </span>
               <br />
               <span>Mostly made in blender</span>
@@ -196,7 +196,7 @@
               <span class="cardText index-text50">
                 <span>Lorem ipsum dolor sit amet aulla quis sem at nibh elementum</span>
                 <br />
-                <span><span v-html="rawiwd0"></span></span>
+                <span><span v-html="rawcrzd"></span></span>
               </span>
             </div>
             <div class="index-container09">
@@ -231,37 +231,43 @@
       <h2 class="sectionHeading index-text56">About me</h2>
       <div class="index-content-container4">
         <div class="index-faq">
-          <div class="index-question-container">
-            <span class="index-question">Here you would write a frequently asked question?</span>
-          </div>
+          <div class="index-question-container"><span class="index-question">Who am I?</span></div>
           <div class="index-answer-container">
             <span class="cardText index-answer">
-              Here you would give the answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
-              sem at nibh elementum imperdiet. Here you would give the answer. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
-              dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            </span>
-            <span class="cardText">
-              Here you would give the answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
-              sem at nibh elementum imperdiet.
+              <span>
+                My name is Matthew Bailey, I have worked a couple odd jobs as a UX/UI designer, QA
+                Tester and a small time developer.
+                <span v-html="rawislc"></span>
+              </span>
+              <br />
+              <span>
+                I have needed to develop my ability to adapt to different environments to meet
+                different goals and I know this skill allows me to produce good deliverables to my
+                clients
+              </span>
             </span>
           </div>
         </div>
         <div class="index-faq1">
           <div class="index-question-container1">
-            <span class="index-question1">Here you would write a frequently asked question?</span>
+            <span class="index-question1">What tools and technologies are you familiar with?</span>
           </div>
           <div class="index-answer-container1">
-            <span class="cardText index-answer2">
-              Here you would give the answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
-              sem at nibh elementum imperdiet.
+            <span class="cardText index-answer1">
+              <span>
+                When it comes to design, I am most familiar with Figma, though I do have some
+                experience with Adobe XD.
+                <span v-html="rawo6is"></span>
+              </span>
+              <br />
+              <span>
+                Webflow and Teleport are also design solutions I have come to use.
+                <span v-html="rawi3hu"></span>
+              </span>
             </span>
             <span class="cardText">
-              Here you would give the answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer nec odio. Praesent libero.
+              For Programming languages and scripts, I am familiar with python and javascript however,
+              I do have varying amounts of experience with HTML, CSS, SQL and C/C++
             </span>
           </div>
         </div>
@@ -270,7 +276,7 @@
             <span class="index-question2">Here you would write a frequently asked question?</span>
           </div>
           <div class="index-answer-container2">
-            <span class="cardText index-answer4">
+            <span class="cardText index-answer3">
               Here you would give the answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
               sem at nibh elementum imperdiet.
@@ -293,8 +299,8 @@
       />
       <div class="index-container11">
         <div class="index-heading-container2">
-          <h1 class="sectionHeading index-text57">Get our guide to crafting digital products</h1>
-          <span class="sectionText index-text58">
+          <h1 class="sectionHeading index-text63">Get our guide to crafting digital products</h1>
+          <span class="sectionText index-text64">
             We will send you our monthly freebies on your email. We will not share your email address
             or use it for promotional goals.
           </span>
@@ -345,12 +351,15 @@ export default {
 
   data() {
     return {
-      raw80fw: ' ',
-      rawhwme: ' ',
-      rawye2y: ' ',
-      rawpgwy: ' ',
-      rawh8hb: ' ',
-      rawiwd0: ' ',
+      rawbs6h: ' ',
+      raw69q4: ' ',
+      rawj9pi: ' ',
+      rawhyqf: ' ',
+      raw3wuw: ' ',
+      rawcrzd: ' ',
+      rawislc: ' ',
+      rawo6is: ' ',
+      rawi3hu: ' ',
     }
   },
 
@@ -1032,7 +1041,7 @@ export default {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.index-answer2 {
+.index-answer1 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .index-faq2 {
@@ -1077,7 +1086,7 @@ export default {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.index-answer4 {
+.index-answer3 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .index-section-separator3 {
@@ -1117,7 +1126,7 @@ export default {
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.index-text57 {
+.index-text63 {
   margin-bottom: var(--dl-space-space-fourunits);
 }
 .index-textinput {
@@ -1301,10 +1310,10 @@ export default {
   .index-heading-container2 {
     width: 100%;
   }
-  .index-text57 {
+  .index-text63 {
     text-align: center;
   }
-  .index-text58 {
+  .index-text64 {
     text-align: center;
   }
   .index-textinput {
